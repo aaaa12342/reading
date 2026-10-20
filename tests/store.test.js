@@ -1,0 +1,12 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {Store,checkConfig} from '../js/store.js';
+const map=new Map();
+globalThis.localStorage={getItem:k=>map.get(k)||null,setItem:(k,v)=>map.set(k,v)};
+const book={title:'活着',author:'余华',category:'文学小说'};
+const s=()=>({id:crypto.randomUUID(),started_on:'2024-01-01',finished_on:'2024-01-02',notes:''});
+test('本地保存和重读共用图书，刷新后仍存在',async()=>{map.clear();const store=new Store();await store.load();await store.save(book,s());await store.save(book,s());const another=new Store();await another.load();assert.equal(another.data.books.length,1);assert.equal(another.data.sessions.length,2);});
+test('存储容量失败时不更新内存数据',async()=>{const store=new Store(),original=localStorage.setItem;localStorage.setItem=()=>{throw new Error('quota');};try{await assert.rejects(()=>store.save(book,s()),/quota/);assert.equal(store.data.sessions.length,0);}finally{localStorage.setItem=original;}});
+test('云写入失败不回退到本地存储',async()=>{map.clear();const store=new Store();store.user={id:'a'};store.client={rpc:async()=>({error:new Error('network failure')})};await assert.rejects(()=>store.save(book,s()),/network failure/);assert.equal(map.size,0);});
+test('退出账号后到达的旧云读取结果不进入新视图',async()=>{const store=new Store();let finish;const pending=new Promise(resolve=>finish=resolve);store.user={id:'a'};store.client={from:()=>({select:()=>pending})};const load=store.load();store.user=null;store.data={books:[],sessions:[]};finish({data:[book],error:null});await load;assert.equal(store.data.books.length,0);});
+test('连接配置拒绝管理员、第三方域名和非 HTTPS',()=>{assert.throws(()=>checkConfig({supabaseUrl:'https://test.supabase.co',supabaseKey:'sb_secret_bad'}));assert.throws(()=>checkConfig({supabaseUrl:'https://test.supabase.co.evil.test',supabaseKey:'sb_publishable_1234567890'}));assert.throws(()=>checkConfig({supabaseUrl:'http://test.supabase.co',supabaseKey:'sb_publishable_1234567890'}));assert.doesNotThrow(()=>checkConfig({supabaseUrl:'https://test.supabase.co',supabaseKey:'sb_publishable_1234567890'}));});

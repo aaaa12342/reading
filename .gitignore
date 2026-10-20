@@ -1,0 +1,7 @@
+node_modules/
+test-results/
+*.log
+task_plan.md
+findings.md
+progress.md
+.planning/

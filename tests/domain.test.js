@@ -1,0 +1,18 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {statistics,duration,validDate,validateSession,validateBackup,mergeBackup,bookKey} from '../js/domain.js';
+import {inferCategory} from '../js/catalog.js';
+const id=()=>crypto.randomUUID();
+const book={id:id(),title:'活着',author:'余华',category:'文学小说'};
+const session=(start,end)=>({id:id(),book_id:book.id,started_on:start,finished_on:end,notes:''});
+test('跨年阅读计入完成年份和月份',()=>{const stats=statistics([book],[session('2023-12-20','2024-01-05')],2024);assert.equal(stats.total,1);assert.equal(stats.months[0].length,1);assert.equal(statistics([book],[session('2023-12-20','2024-01-05')],2023).total,0);});
+test('同一本书重读按次数统计，同时保留去重书数',()=>{const stats=statistics([book],[session('2024-01-02','2024-01-03'),session('2024-02-01','2024-02-03'),session('2024-02-05',null)],2024);assert.equal(stats.total,2);assert.equal(stats.unique,1);assert.equal(stats.reading,1);assert.equal(stats.categories[0].count,2);});
+test('阅读天数含首尾且跨闰年无误',()=>{assert.equal(duration('2024-02-28','2024-03-01'),3);assert.equal(duration('2024-01-01','2024-01-01'),1);assert.equal(duration('2023-12-31','2024-01-01'),2);});
+test('日期校验拒绝不存在的日期和倒序',()=>{assert.equal(validDate('2023-02-29'),false);assert.equal(validDate('2024-02-29'),true);assert.equal(validDate('2024-13-01'),false);assert.throws(()=>validateSession(session('2024-01-02','2024-01-01')));assert.throws(()=>validateSession(session('2099-01-01',null)));});
+test('空数据统计没有 NaN 或 Infinity',()=>{const s=statistics([],[],2024);assert.equal(s.average,0);assert.equal(s.total,0);assert.equal(s.months.length,12);});
+test('书籍身份统一全角、大小写和空白',()=>{assert.equal(bookKey(' Ａ  Book ','Author'),bookKey('A Book','author'));});
+test('分类推断没有结果返回其他',()=>{assert.equal(inferCategory(['Fiction','novel']),'文学小说');assert.equal(inferCategory(['History']),'历史传记');assert.equal(inferCategory([]),'其他');});
+test('备份清除 user_id 等输入字段并验证外键',()=>{const backup=validateBackup({version:1,books:[{...book,user_id:'other'}],sessions:[session('2024-01-01','2024-01-03')]});assert.equal(backup.books[0].user_id,undefined);assert.throws(()=>validateBackup({version:1,books:[],sessions:backup.sessions}));});
+test('重复导入幂等，不同图书 ID 但同名同作者合并',()=>{const first={books:[book],sessions:[session('2024-01-01','2024-01-03')]};assert.deepEqual(mergeBackup(first,first),first);const anotherBook={...book,id:id()};const second={books:[anotherBook],sessions:[{...session('2024-02-01','2024-02-03'),book_id:anotherBook.id}]};const merged=mergeBackup(first,second);assert.equal(merged.books.length,1);assert.equal(merged.sessions.length,2);assert.equal(merged.sessions[1].book_id,book.id);});
+test('导入 ID 冲突取消且不修改原数据',()=>{const s=session('2024-01-01','2024-01-03');const current={books:[book],sessions:[s]};assert.throws(()=>mergeBackup(current,{books:[book],sessions:[{...s,notes:'不同笔记'}]}));assert.equal(current.sessions[0].notes,'');});
+test('备份拒绝重复阅读 ID、重复图书和无效类型',()=>{const s=session('2024-01-01',null);assert.throws(()=>validateBackup({version:1,books:[book],sessions:[s,s]}));assert.throws(()=>validateBackup({version:1,books:[book,{...book,id:id()}],sessions:[]}));assert.throws(()=>validateBackup({version:1,books:[{...book,category:'<img>'}],sessions:[]}));});
