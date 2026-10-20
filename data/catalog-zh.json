@@ -1,0 +1,5292 @@
+{
+  "updated_on": "2026-10-20",
+  "license": "CC0-1.0",
+  "source": "https://www.wikidata.org/",
+  "query": "SELECT ?book ?title ?author ?authorName ?type WHERE {\n VALUES ?type { wd:Q8261 wd:Q571 wd:Q7725634 }\n ?book wdt:P31 ?type; wikibase:sitelinks ?links; wdt:P50 ?author; rdfs:label ?title.\n FILTER(?links > 15 && LANGMATCHES(lang(?title),\"zh\"))\n ?author rdfs:label ?authorName. FILTER(lang(?authorName)=\"en\")\n} LIMIT 2000",
+  "books": [
+    {
+      "title": "侏儒往世书",
+      "aliases": [
+        "侏儒往世書"
+      ],
+      "category": "其他",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q760883",
+      "author": "Vyasa"
+    },
+    {
+      "title": "未完的傳說",
+      "aliases": [
+        "未完的传说"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q309019",
+      "author": "J·R·R·托尔金"
+    },
+    {
+      "title": "通天塔图书馆",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q473",
+      "author": "豪尔赫·路易斯·博尔赫斯"
+    },
+    {
+      "title": "堂吉诃德",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q480",
+      "author": "米格尔·德·塞万提斯"
+    },
+    {
+      "title": "死神教父",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q316024",
+      "author": "威廉·格林、雅各布·格林、格林兄弟"
+    },
+    {
+      "title": "渔夫和他的妻子",
+      "aliases": [
+        "漁夫和他的妻子"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q316990",
+      "author": "格林兄弟、威廉·格林、雅各布·格林"
+    },
+    {
+      "title": "源氏物语",
+      "aliases": [
+        "源氏物語"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q8269",
+      "author": "紫式部"
+    },
+    {
+      "title": "双城记",
+      "aliases": [
+        "雙城記"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q308918",
+      "author": "查尔斯·狄更斯"
+    },
+    {
+      "title": "摩訶婆羅多",
+      "aliases": [
+        "摩诃婆罗多"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q8276",
+      "author": "广博仙人"
+    },
+    {
+      "title": "湯姆歷險記",
+      "aliases": [
+        "汤姆·索亚历险记",
+        "汤姆历险记"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q326914",
+      "author": "马克·吐温"
+    },
+    {
+      "title": "汤姆叔叔的小屋",
+      "aliases": [
+        "湯姆叔叔的小屋"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q2222",
+      "author": "哈里特·伊丽莎白·比彻·斯托"
+    },
+    {
+      "title": "马克斯和莫里茨",
+      "aliases": [
+        "馬克斯與莫里茨"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q316894",
+      "author": "威廉·布施"
+    },
+    {
+      "title": "布登勃洛克家族",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q326909",
+      "author": "托马斯·曼"
+    },
+    {
+      "title": "朗读者",
+      "aliases": [
+        "朗讀者",
+        "我願意為妳朗讀"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q311449",
+      "author": "本哈德·施林克"
+    },
+    {
+      "title": "长老",
+      "aliases": [
+        "龍騎士二部曲:勇者無懼"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q308982",
+      "author": "克里斯托弗·鲍里尼"
+    },
+    {
+      "title": "教宗名錄",
+      "aliases": [
+        "教宗名录"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q309061",
+      "author": "Anonymous (Book of pontiffs)"
+    },
+    {
+      "title": "飄",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q2870",
+      "author": "玛格丽特·米切尔"
+    },
+    {
+      "title": "老蘇丹",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q328023",
+      "author": "威廉·格林、雅各布·格林、格林兄弟"
+    },
+    {
+      "title": "米德尔马契",
+      "aliases": [
+        "米德爾馬契"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q313129",
+      "author": "乔治·艾略特"
+    },
+    {
+      "title": "糖果屋",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q11829",
+      "author": "威廉·格林、雅各布·格林、格林兄弟"
+    },
+    {
+      "title": "群魔",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q329989",
+      "author": "费奥多尔·米哈伊洛维奇·陀思妥耶夫斯基"
+    },
+    {
+      "title": "芬尼根的守灵夜",
+      "aliases": [
+        "芬尼根的守靈夜"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q6507",
+      "author": "詹姆斯·乔伊斯"
+    },
+    {
+      "title": "红楼梦",
+      "aliases": [
+        "紅樓夢"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q8265",
+      "author": "曹雪芹"
+    },
+    {
+      "title": "飢餓遊戲",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q11678",
+      "author": "苏珊·柯林斯"
+    },
+    {
+      "title": "箴言",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q4579",
+      "author": "所羅門"
+    },
+    {
+      "title": "一千零一夜",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q8258",
+      "author": "多位作家"
+    },
+    {
+      "title": "狼和七只小山羊",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q11848",
+      "author": "格林兄弟、雅各布·格林、威廉·格林"
+    },
+    {
+      "title": "達芙尼與克洛埃",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q318333",
+      "author": "朗格斯"
+    },
+    {
+      "title": "埃努的大樂章",
+      "aliases": [
+        "阿伊努大運動"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q330826",
+      "author": "J·R·R·托尔金"
+    },
+    {
+      "title": "愛的教育",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q11336",
+      "author": "爱德蒙多·德·亚米契斯"
+    },
+    {
+      "title": "穿条纹睡衣的男孩",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q322156",
+      "author": "約翰‧波恩"
+    },
+    {
+      "title": "第101隻斑點狗",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q8563",
+      "author": "多迪·史密斯"
+    },
+    {
+      "title": "湯姆·龐巴迪歷險記",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q331804",
+      "author": "J·R·R·托尔金"
+    },
+    {
+      "title": "駁斥阿比安",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q331135",
+      "author": "弗拉维奥·约瑟夫斯"
+    },
+    {
+      "title": "列王紀",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q8279",
+      "author": "達齊齊、菲尔多西"
+    },
+    {
+      "title": "伊利亚特",
+      "aliases": [
+        "伊利亞德"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q8275",
+      "author": "荷马"
+    },
+    {
+      "title": "創世記",
+      "aliases": [
+        "创世记"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q9184",
+      "author": "摩西"
+    },
+    {
+      "title": "安妮日记",
+      "aliases": [
+        "安妮日記"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q6911",
+      "author": "安妮·弗兰克"
+    },
+    {
+      "title": "名字古怪的小矮人兒",
+      "aliases": [
+        "名字古怪的小矮人儿"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q322188",
+      "author": "格林兄弟、威廉·格林、雅各布·格林"
+    },
+    {
+      "title": "無手的女孩",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q322326",
+      "author": "格林兄弟、雅各布·格林、威廉·格林"
+    },
+    {
+      "title": "醉舟",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q332307",
+      "author": "阿蒂尔·兰波"
+    },
+    {
+      "title": "尤利西斯",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q6511",
+      "author": "詹姆斯·乔伊斯"
+    },
+    {
+      "title": "白玫瑰與紅玫瑰",
+      "aliases": [
+        "雪花白与玫瑰红",
+        "雪花白與玫瑰紅"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q11843",
+      "author": "格林兄弟"
+    },
+    {
+      "title": "你往何處去",
+      "aliases": [
+        "你往何处去",
+        "暴君焚城錄",
+        "暴君焚城記"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q335315",
+      "author": "亨利克·亞當·亞歷山大·皮烏斯·显克微支"
+    },
+    {
+      "title": "共產主義黑皮書",
+      "aliases": [
+        "共产主义黑皮书"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q334896",
+      "author": "约阿希姆·高克、斯特凡·库尔图瓦、尼古拉·韦特、安杰伊·帕奇科夫斯基"
+    },
+    {
+      "title": "政事論",
+      "aliases": [
+        "政事论"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q323133",
+      "author": "考底利耶"
+    },
+    {
+      "title": "坚定的锡兵",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q11872",
+      "author": "安徒生"
+    },
+    {
+      "title": "卖火柴的小女孩",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q11876",
+      "author": "安徒生"
+    },
+    {
+      "title": "胡林的子女",
+      "aliases": [
+        "胡林的儿女",
+        "胡林的兒女"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q331651",
+      "author": "J·R·R·托尔金"
+    },
+    {
+      "title": "勇敢的小裁缝",
+      "aliases": [
+        "勇敢的小裁縫"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q326838",
+      "author": "格林兄弟、雅各布·格林、威廉·格林"
+    },
+    {
+      "title": "雙城奇謀",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q332388",
+      "author": "J·R·R·托尔金"
+    },
+    {
+      "title": "王者再臨",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q332581",
+      "author": "J·R·R·托尔金"
+    },
+    {
+      "title": "狄康卡近鄉夜話",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q318848",
+      "author": "尼古拉·果戈理"
+    },
+    {
+      "title": "后汉书",
+      "aliases": [
+        "後漢書"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q430428",
+      "author": "范晔、司马彪"
+    },
+    {
+      "title": "美國眾神",
+      "aliases": [
+        "美国众神"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q430514",
+      "author": "尼尔·盖曼"
+    },
+    {
+      "title": "比爾博最後之歌",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q334475",
+      "author": "J·R·R·托尔金"
+    },
+    {
+      "title": "野獸家園",
+      "aliases": [
+        "野兽家园"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q13912",
+      "author": "莫里斯·桑达克"
+    },
+    {
+      "title": "聰明誤",
+      "aliases": [
+        "聪明误"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q15005",
+      "author": "亚历山大·格里伯耶多夫"
+    },
+    {
+      "title": "勸導 (小說)",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q333179",
+      "author": "简·奥斯丁"
+    },
+    {
+      "title": "鼠疫",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q320372",
+      "author": "阿尔贝·加缪"
+    },
+    {
+      "title": "穹頂之下",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q435722",
+      "author": "斯蒂芬·金"
+    },
+    {
+      "title": "生死关头 (小说)",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q368432",
+      "author": "伊恩·佛萊明"
+    },
+    {
+      "title": "列子",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q434429",
+      "author": "列御寇"
+    },
+    {
+      "title": "戈多丁",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q430891",
+      "author": "阿内林"
+    },
+    {
+      "title": "白雪公主",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q11831",
+      "author": "格林兄弟"
+    },
+    {
+      "title": "莫扎特传",
+      "aliases": [
+        "莫扎特傳"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q451831",
+      "author": "彼得·谢弗"
+    },
+    {
+      "title": "哈特拉斯船長歷險記",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q319149",
+      "author": "儒勒·凡尔纳"
+    },
+    {
+      "title": "高卢的阿玛迪斯",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q452075",
+      "author": "加西亚·罗德里格斯·德·蒙塔尔沃"
+    },
+    {
+      "title": "豌豆公主",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q11861",
+      "author": "安徒生"
+    },
+    {
+      "title": "傅科擺",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q437791",
+      "author": "翁贝托·埃科"
+    },
+    {
+      "title": "命运之门",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q438276",
+      "author": "阿加莎·克里斯蒂"
+    },
+    {
+      "title": "美人魚",
+      "aliases": [
+        "美人鱼"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q11859",
+      "author": "安徒生"
+    },
+    {
+      "title": "诺斯特罗莫",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q430248",
+      "author": "约瑟夫·康拉德"
+    },
+    {
+      "title": "白牙",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q152267",
+      "author": "杰克·伦敦"
+    },
+    {
+      "title": "黎明行者號",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q331656",
+      "author": "克利夫·史戴普·路易斯"
+    },
+    {
+      "title": "銀椅",
+      "aliases": [
+        "银椅"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q331669",
+      "author": "克利夫·史戴普·路易斯"
+    },
+    {
+      "title": "荷马诗颂",
+      "aliases": [
+        "荷马史诗",
+        "荷馬史詩"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q329342",
+      "author": "荷马"
+    },
+    {
+      "title": "神谱",
+      "aliases": [
+        "神譜"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q156498",
+      "author": "赫西俄德"
+    },
+    {
+      "title": "悲喜交家",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q428680",
+      "author": "艾莉森·贝克德尔"
+    },
+    {
+      "title": "斑鳩鬍鬚國王",
+      "aliases": [
+        "斑鸠胡须国王"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q11856",
+      "author": "格林兄弟、威廉·格林、雅各布·格林"
+    },
+    {
+      "title": "權力與榮耀",
+      "aliases": [
+        "权力与荣耀"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q431524",
+      "author": "格雷厄姆·格林"
+    },
+    {
+      "title": "雪母婆婆",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q11853",
+      "author": "格林兄弟、威廉·格林、雅各布·格林"
+    },
+    {
+      "title": "小婦人",
+      "aliases": [
+        "小妇人"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q523076",
+      "author": "路易莎·奥尔科特"
+    },
+    {
+      "title": "青蛙王子",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q11850",
+      "author": "格林兄弟、雅各布·格林、威廉·格林"
+    },
+    {
+      "title": "丑小鸭",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q11868",
+      "author": "安徒生"
+    },
+    {
+      "title": "拇指姑娘",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q11870",
+      "author": "安徒生"
+    },
+    {
+      "title": "劍刃風暴",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q431927",
+      "author": "乔治·R·R·马丁"
+    },
+    {
+      "title": "聖誕老爸的來信",
+      "aliases": [
+        "父亲的圣诞节来信",
+        "圣诞老人书信集",
+        "聖誕老人書信集"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q534991",
+      "author": "J·R·R·托尔金"
+    },
+    {
+      "title": "我是貓",
+      "aliases": [
+        "我是猫"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q35690",
+      "author": "夏目漱石"
+    },
+    {
+      "title": "罗摩衍那",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q37293",
+      "author": "蚁垤"
+    },
+    {
+      "title": "阿特拉斯摆脱重负",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q374098",
+      "author": "安·兰德"
+    },
+    {
+      "title": "藍鬍子",
+      "aliases": [
+        "蓝胡子"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q161138",
+      "author": "夏尔·佩罗"
+    },
+    {
+      "title": "奇幻馬和傳說",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q157360",
+      "author": "克利夫·史戴普·路易斯"
+    },
+    {
+      "title": "魔戒",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q15228",
+      "author": "J·R·R·托尔金"
+    },
+    {
+      "title": "天文学大成",
+      "aliases": [
+        "天文學大成"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q155952",
+      "author": "克劳狄乌斯·托勒密"
+    },
+    {
+      "title": "泰芮絲的寂愛人生",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q31285",
+      "author": "弗朗索瓦·莫里亚克"
+    },
+    {
+      "title": "雾都孤儿",
+      "aliases": [
+        "苦海孤雛",
+        "孤雏泪",
+        "孤雛淚"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q164974",
+      "author": "查尔斯·狄更斯"
+    },
+    {
+      "title": "曙光中的機器人",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q440784",
+      "author": "艾萨克·阿西莫夫"
+    },
+    {
+      "title": "奧特蘭托堡",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q548576",
+      "author": "贺瑞斯·沃波尔"
+    },
+    {
+      "title": "政治经济学批判大纲",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q527370",
+      "author": "卡尔·马克思"
+    },
+    {
+      "title": "文明进程",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q331029",
+      "author": "諾博特·伊里亞思"
+    },
+    {
+      "title": "公民不服从 (梭罗)",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q331092",
+      "author": "亨利·戴维·梭罗"
+    },
+    {
+      "title": "罪與罰",
+      "aliases": [
+        "罪与罚"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q165318",
+      "author": "费奥多尔·米哈伊洛维奇·陀思妥耶夫斯基"
+    },
+    {
+      "title": "國王的新衣",
+      "aliases": [
+        "皇帝的新装"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q11866",
+      "author": "安徒生"
+    },
+    {
+      "title": "七鐘面",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q457252",
+      "author": "阿加莎·克里斯蒂"
+    },
+    {
+      "title": "海鸥乔纳森",
+      "aliases": [
+        "天地一沙鷗",
+        "天地一沙鸥"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q373536",
+      "author": "李查·巴哈"
+    },
+    {
+      "title": "巴黎之腹",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q338034",
+      "author": "埃米尔·左拉"
+    },
+    {
+      "title": "海盜通史",
+      "aliases": [
+        "海盗通史"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q525738",
+      "author": "查尔斯·约翰逊船长"
+    },
+    {
+      "title": "沙丘異端",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q437353",
+      "author": "小弗兰克·帕特里克·赫伯特"
+    },
+    {
+      "title": "沙丘之子",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q437365",
+      "author": "小弗兰克·帕特里克·赫伯特"
+    },
+    {
+      "title": "沙丘救世主",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q437383",
+      "author": "小弗兰克·帕特里克·赫伯特"
+    },
+    {
+      "title": "渡河入林",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q330996",
+      "author": "欧内斯特·海明威"
+    },
+    {
+      "title": "奥德赛",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q35160",
+      "author": "荷马"
+    },
+    {
+      "title": "母親 (高爾基小說)",
+      "aliases": [
+        "母亲"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q169632",
+      "author": "马克西姆·高尔基"
+    },
+    {
+      "title": "傲慢與偏見",
+      "aliases": [
+        "傲慢与偏见"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q170583",
+      "author": "简·奥斯丁"
+    },
+    {
+      "title": "毛主席语录",
+      "aliases": [
+        "毛主席語錄"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q36393",
+      "author": "毛泽东"
+    },
+    {
+      "title": "等待戈多",
+      "aliases": [
+        "等待果陀"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q19871",
+      "author": "萨缪尔·贝克特"
+    },
+    {
+      "title": "白鯨記",
+      "aliases": [
+        "白鲸记",
+        "白鲸"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q174596",
+      "author": "赫尔曼·梅尔维尔"
+    },
+    {
+      "title": "黃金羅盤",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q169976",
+      "author": "菲利普·普尔曼"
+    },
+    {
+      "title": "格林童話",
+      "aliases": [
+        "格林童话"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q163027",
+      "author": "威廉·格林、雅各布·格林"
+    },
+    {
+      "title": "少年维特的烦恼",
+      "aliases": [
+        "少年維特的煩惱"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q151883",
+      "author": "约翰·沃尔夫冈·冯·歌德"
+    },
+    {
+      "title": "烏鴉",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q22726",
+      "author": "爱伦·坡"
+    },
+    {
+      "title": "戰爭與和平",
+      "aliases": [
+        "战争与和平"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q161531",
+      "author": "列夫·托尔斯泰"
+    },
+    {
+      "title": "于丽埃特",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q540894",
+      "author": "萨德侯爵"
+    },
+    {
+      "title": "羅佛蘭登",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q535795",
+      "author": "J·R·R·托尔金"
+    },
+    {
+      "title": "有錢人和沒錢人",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q538390",
+      "author": "欧内斯特·海明威"
+    },
+    {
+      "title": "我为什么不是基督徒",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q164543",
+      "author": "伯特兰·罗素"
+    },
+    {
+      "title": "洞",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q175421",
+      "author": "路易斯·萨奇尔"
+    },
+    {
+      "title": "煙囪的祕密",
+      "aliases": [
+        "煙囪的秘密"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q174654",
+      "author": "阿加莎·克里斯蒂"
+    },
+    {
+      "title": "失落的故事集",
+      "aliases": [
+        "一个相伴的神话故事",
+        "一個相伴的神話故事"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q340401",
+      "author": "J·R·R·托尔金"
+    },
+    {
+      "title": "貢多林的陷落",
+      "aliases": [
+        "刚多林的陷落"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q340515",
+      "author": "J·R·R·托尔金"
+    },
+    {
+      "title": "查理大帝传",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q538574",
+      "author": "艾因哈德"
+    },
+    {
+      "title": "忏悔录",
+      "aliases": [
+        "忏悔录 (奥古斯丁)",
+        "懺悔錄 (奧古斯丁)"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q372941",
+      "author": "希波的奥古斯丁"
+    },
+    {
+      "title": "宮本武藏",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q537982",
+      "author": "吉川英治"
+    },
+    {
+      "title": "古拉格群岛",
+      "aliases": [
+        "古拉格群島"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q369944",
+      "author": "亚历山大·索尔仁尼琴"
+    },
+    {
+      "title": "雲圖",
+      "aliases": [
+        "云图"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q40205",
+      "author": "大卫·米切尔"
+    },
+    {
+      "title": "摩西五经",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q34990",
+      "author": "摩西"
+    },
+    {
+      "title": "空中村落",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q168309",
+      "author": "儒勒·凡尔纳"
+    },
+    {
+      "title": "高爾夫球場命案",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q542293",
+      "author": "阿加莎·克里斯蒂"
+    },
+    {
+      "title": "查爾斯·德克斯特·沃德事件",
+      "aliases": [
+        "查尔斯·德克斯特·沃德事件"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q543844",
+      "author": "H·P·洛夫克拉夫特"
+    },
+    {
+      "title": "老人与海",
+      "aliases": [
+        "老人與海"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q26505",
+      "author": "欧内斯特·海明威"
+    },
+    {
+      "title": "白羅的聖誕假期",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q377710",
+      "author": "阿加莎·克里斯蒂"
+    },
+    {
+      "title": "基督信仰小问答",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q528092",
+      "author": "马丁·路德"
+    },
+    {
+      "title": "论神性",
+      "aliases": [
+        "論神性"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q370414",
+      "author": "西塞罗"
+    },
+    {
+      "title": "微物之神",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q378786",
+      "author": "阿兰达蒂·罗伊"
+    },
+    {
+      "title": "漂亮朋友",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q339761",
+      "author": "居伊·德·莫泊桑"
+    },
+    {
+      "title": "機器人與帝國",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q377230",
+      "author": "艾萨克·阿西莫夫"
+    },
+    {
+      "title": "罗比",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q372968",
+      "author": "艾萨克·阿西莫夫"
+    },
+    {
+      "title": "论俗语",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q18081",
+      "author": "但丁·阿利吉耶里"
+    },
+    {
+      "title": "新生",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q18084",
+      "author": "但丁·阿利吉耶里"
+    },
+    {
+      "title": "赤裸的午餐",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q379286",
+      "author": "威廉·柏洛兹"
+    },
+    {
+      "title": "諾博士",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q26541",
+      "author": "伊恩·佛萊明"
+    },
+    {
+      "title": "異鄉人",
+      "aliases": [
+        "异乡人",
+        "局外人"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q163297",
+      "author": "阿尔贝·加缪"
+    },
+    {
+      "title": "少年派的奇幻漂流",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q374204",
+      "author": "揚·馬特爾"
+    },
+    {
+      "title": "玻璃偵探",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q375090",
+      "author": "J·B·普瑞斯特利"
+    },
+    {
+      "title": "涅瓦大街 (小说)",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q448977",
+      "author": "尼古拉·果戈理"
+    },
+    {
+      "title": "十日談",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q16438",
+      "author": "乔万尼·薄伽丘"
+    },
+    {
+      "title": "魔法的顏色",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q32136",
+      "author": "泰瑞·普萊契"
+    },
+    {
+      "title": "英國工人階級狀況",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q339624",
+      "author": "弗里德里希·恩格斯"
+    },
+    {
+      "title": "哈利波特－神秘的魔法石",
+      "aliases": [
+        "哈利·波特与魔法石"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q43361",
+      "author": "J·K·罗琳"
+    },
+    {
+      "title": "基督教要义",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q371558",
+      "author": "约翰·加尔文"
+    },
+    {
+      "title": "奔跑的男人",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q25551",
+      "author": "斯蒂芬·金"
+    },
+    {
+      "title": "舊約聖經",
+      "aliases": [
+        "旧约圣经"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q19786",
+      "author": "多位作家"
+    },
+    {
+      "title": "父與子",
+      "aliases": [
+        "父与子"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q29424",
+      "author": "伊万·谢尔盖耶维奇·屠格涅夫"
+    },
+    {
+      "title": "在法之前",
+      "aliases": [
+        "法的门前",
+        "法的門前"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q35714",
+      "author": "弗朗茨·卡夫卡"
+    },
+    {
+      "title": "审判",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q36097",
+      "author": "弗朗茨·卡夫卡"
+    },
+    {
+      "title": "臨時空缺",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q25750",
+      "author": "J·K·罗琳"
+    },
+    {
+      "title": "苦煉",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q38793",
+      "author": "玛格丽特·尤瑟纳尔"
+    },
+    {
+      "title": "新故土",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q443071",
+      "author": "西奥多·赫茨尔"
+    },
+    {
+      "title": "札西在地鐵",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q167906",
+      "author": "雷蒙·格诺"
+    },
+    {
+      "title": "珍·瑪波4：黑麥奇案",
+      "aliases": [
+        "黑麦奇案",
+        "黑麥奇案"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q29132",
+      "author": "阿加莎·克里斯蒂"
+    },
+    {
+      "title": "共产党宣言",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q40591",
+      "author": "卡尔·马克思、弗里德里希·恩格斯"
+    },
+    {
+      "title": "西遊記",
+      "aliases": [
+        "西游记"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q70784",
+      "author": "吴承恩"
+    },
+    {
+      "title": "死無對證",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q337944",
+      "author": "阿加莎·克里斯蒂"
+    },
+    {
+      "title": "伊凡·杰尼索维奇的一天",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q27321",
+      "author": "亚历山大·索尔仁尼琴"
+    },
+    {
+      "title": "百年孤寂",
+      "aliases": [
+        "百年孤独"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q178869",
+      "author": "加夫列尔·加西亚·马尔克斯"
+    },
+    {
+      "title": "炼金术士",
+      "aliases": [
+        "鍊金術士"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q179021",
+      "author": "保罗·科埃略"
+    },
+    {
+      "title": "吟遊詩人皮陀故事集",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q165068",
+      "author": "J·K·罗琳"
+    },
+    {
+      "title": "猶太戰爭",
+      "aliases": [
+        "犹太战记",
+        "猶太戰記"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q44276",
+      "author": "弗拉维奥·约瑟夫斯"
+    },
+    {
+      "title": "查理與大玻璃升降機",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q530406",
+      "author": "羅爾德·達爾"
+    },
+    {
+      "title": "在佛兰德战场",
+      "aliases": [
+        "在法蘭德斯戰場"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q25772",
+      "author": "约翰·麦克雷"
+    },
+    {
+      "title": "萨迪的布斯坦",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q446972",
+      "author": "萨迪·设拉兹"
+    },
+    {
+      "title": "死前必聽的1001張專輯",
+      "aliases": [
+        "死前必听的1001张专辑"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q164932",
+      "author": "Robert Dimery"
+    },
+    {
+      "title": "德古拉",
+      "aliases": [
+        "德拉库拉"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q41542",
+      "author": "布拉姆·斯托克"
+    },
+    {
+      "title": "鬼靈精",
+      "aliases": [
+        "圣诞怪杰",
+        "聖誕怪傑"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q446612",
+      "author": "苏斯博士"
+    },
+    {
+      "title": "啟示錄",
+      "aliases": [
+        "启示录"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q42040",
+      "author": "拔摩岛的约翰"
+    },
+    {
+      "title": "鑽石年代",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q543562",
+      "author": "尼尔·斯蒂芬森"
+    },
+    {
+      "title": "地穴寓言",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q22738",
+      "author": "柏拉图"
+    },
+    {
+      "title": "寓所謎案",
+      "aliases": [
+        "寓所谜案"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q693559",
+      "author": "阿加莎·克里斯蒂"
+    },
+    {
+      "title": "神曲",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q40185",
+      "author": "但丁·阿利吉耶里"
+    },
+    {
+      "title": "貓之搖籃",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q41359",
+      "author": "库尔特·冯内古特"
+    },
+    {
+      "title": "小王子",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q25338",
+      "author": "安托万·德圣埃克絮佩里"
+    },
+    {
+      "title": "便西拉智訓",
+      "aliases": [
+        "便西拉智训"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q155980",
+      "author": "耶稣·便·西拉"
+    },
+    {
+      "title": "豺狼的日子",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q26085",
+      "author": "弗雷德里克·福赛斯"
+    },
+    {
+      "title": "内战记",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q544948",
+      "author": "凯撒"
+    },
+    {
+      "title": "牧歌集",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q546203",
+      "author": "维吉尔"
+    },
+    {
+      "title": "约婚夫妇",
+      "aliases": [
+        "約婚夫婦"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q28491",
+      "author": "亚历山德罗·曼佐尼"
+    },
+    {
+      "title": "2061太空漫遊",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q212718",
+      "author": "亞瑟·查理斯·克拉克"
+    },
+    {
+      "title": "卡拉馬佐夫兄弟",
+      "aliases": [
+        "卡拉马佐夫兄弟",
+        "卡拉馬助夫兄弟們"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q183157",
+      "author": "费奥多尔·米哈伊洛维奇·陀思妥耶夫斯基"
+    },
+    {
+      "title": "雅典政制",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q382282",
+      "author": "亚里士多德"
+    },
+    {
+      "title": "亚格达斯经",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q687339",
+      "author": "巴哈欧拉"
+    },
+    {
+      "title": "魔山",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q212898",
+      "author": "托马斯·曼"
+    },
+    {
+      "title": "三文钱的歌剧",
+      "aliases": [
+        "三文錢的歌劇"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q212495",
+      "author": "伊麗莎白·霍普曼"
+    },
+    {
+      "title": "陷阱與鐘擺",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q379449",
+      "author": "爱伦·坡"
+    },
+    {
+      "title": "天使与魔鬼",
+      "aliases": [
+        "天使與魔鬼"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q182502",
+      "author": "丹·布朗"
+    },
+    {
+      "title": "简·爱",
+      "aliases": [
+        "簡·愛"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q182961",
+      "author": "夏洛特·勃朗特"
+    },
+    {
+      "title": "冰雪女王",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q11880",
+      "author": "安徒生"
+    },
+    {
+      "title": "野天鵝",
+      "aliases": [
+        "野天鹅"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q11883",
+      "author": "安徒生"
+    },
+    {
+      "title": "柏林亚历山大广场",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q694245",
+      "author": "阿尔弗雷德·德布林"
+    },
+    {
+      "title": "行雲使者",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q182283",
+      "author": "迦梨陀娑"
+    },
+    {
+      "title": "易經",
+      "aliases": [
+        "易经"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q181937",
+      "author": "伏羲"
+    },
+    {
+      "title": "尼羅河謀殺案",
+      "aliases": [
+        "尼罗河谋杀案"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q381756",
+      "author": "阿加莎·克里斯蒂"
+    },
+    {
+      "title": "失樂園",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q28754",
+      "author": "约翰·弥尔顿"
+    },
+    {
+      "title": "蒼穹一粟",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q382862",
+      "author": "艾萨克·阿西莫夫"
+    },
+    {
+      "title": "浮士德",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q29478",
+      "author": "约翰·沃尔夫冈·冯·歌德"
+    },
+    {
+      "title": "怪盜紳士亞森·羅蘋",
+      "aliases": [
+        "亚森·罗苹被捕记",
+        "怪盜紳士"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q82442",
+      "author": "莫理斯·卢布朗"
+    },
+    {
+      "title": "羊脂球",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q63971",
+      "author": "居伊·德·莫泊桑"
+    },
+    {
+      "title": "震撼世界的十天",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q30925",
+      "author": "约翰·里德"
+    },
+    {
+      "title": "格列佛游记",
+      "aliases": [
+        "格列佛遊記"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q181488",
+      "author": "乔纳森·斯威夫特"
+    },
+    {
+      "title": "愤怒的葡萄",
+      "aliases": [
+        "憤怒的葡萄"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q215983",
+      "author": "约翰·斯坦贝克"
+    },
+    {
+      "title": "玫瑰之名",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q172850",
+      "author": "翁贝托·埃科"
+    },
+    {
+      "title": "变形记",
+      "aliases": [
+        "變形記"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q184222",
+      "author": "弗朗茨·卡夫卡"
+    },
+    {
+      "title": "夏洛特的网",
+      "aliases": [
+        "夏綠蒂的網"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q45735",
+      "author": "埃爾文·布魯克斯·懷特"
+    },
+    {
+      "title": "世界大战",
+      "aliases": [
+        "星际战争",
+        "星際戰爭"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q213019",
+      "author": "赫伯特·喬治·威爾斯"
+    },
+    {
+      "title": "堕落 (加缪)",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q690362",
+      "author": "阿尔贝·加缪"
+    },
+    {
+      "title": "拜訪",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q688919",
+      "author": "弗里德里希·迪伦马特"
+    },
+    {
+      "title": "武经总要",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q44973",
+      "author": "曾公亮"
+    },
+    {
+      "title": "恶之花",
+      "aliases": [
+        "惡之花"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q216578",
+      "author": "夏尔·波德莱尔"
+    },
+    {
+      "title": "使徒行传",
+      "aliases": [
+        "使徒行傳"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q40309",
+      "author": "路加"
+    },
+    {
+      "title": "發條橘子",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q692557",
+      "author": "安东尼·伯吉斯"
+    },
+    {
+      "title": "钢铁是怎样炼成的",
+      "aliases": [
+        "鋼鐵是怎樣煉成的"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q63707",
+      "author": "尼古拉·奥斯特洛夫斯基"
+    },
+    {
+      "title": "飢餓遊戲：自由幻夢",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q40354",
+      "author": "苏珊·柯林斯"
+    },
+    {
+      "title": "廣林奧義書",
+      "aliases": [
+        "广林奥义书"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q545112",
+      "author": "耶若婆佉"
+    },
+    {
+      "title": "戲劇論",
+      "aliases": [
+        "戏剧论"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q550599",
+      "author": "婆罗多牟尼"
+    },
+    {
+      "title": "太阳的颂歌",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q686091",
+      "author": "亞西西的方濟各"
+    },
+    {
+      "title": "哈比人歷險記",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q74287",
+      "author": "J·R·R·托尔金"
+    },
+    {
+      "title": "海底两万里",
+      "aliases": [
+        "海底兩萬里"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q183565",
+      "author": "儒勒·凡尔纳"
+    },
+    {
+      "title": "苏达辞书",
+      "aliases": [
+        "蘇達辭書"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q216299",
+      "author": "多位作家"
+    },
+    {
+      "title": "变形记",
+      "aliases": [
+        "變形記"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q184742",
+      "author": "奥维德"
+    },
+    {
+      "title": "地下室手记",
+      "aliases": [
+        "地下室手記"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q695116",
+      "author": "费奥多尔·米哈伊洛维奇·陀思妥耶夫斯基"
+    },
+    {
+      "title": "麦田里的守望者",
+      "aliases": [
+        "麥田捕手"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q183883",
+      "author": "杰罗姆·大卫·塞林格"
+    },
+    {
+      "title": "斯捷潘奇科沃村及其居民",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q27775",
+      "author": "费奥多尔·米哈伊洛维奇·陀思妥耶夫斯基"
+    },
+    {
+      "title": "米歐，我的米歐",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q178688",
+      "author": "阿斯特麗德·林格倫"
+    },
+    {
+      "title": "长征记",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q73112",
+      "author": "色诺芬"
+    },
+    {
+      "title": "正義者",
+      "aliases": [
+        "正義之士"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q177069",
+      "author": "阿尔贝·加缪"
+    },
+    {
+      "title": "尼各马可伦理学",
+      "aliases": [
+        "尼各馬可倫理學"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q474537",
+      "author": "亚里士多德"
+    },
+    {
+      "title": "羅馬書",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q48203",
+      "author": "保罗"
+    },
+    {
+      "title": "阿歷克塞傳",
+      "aliases": [
+        "阿莱克修斯传",
+        "阿萊克修斯傳"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q177359",
+      "author": "安娜·科穆宁娜"
+    },
+    {
+      "title": "日常生活之精神病學",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q27592",
+      "author": "西格蒙德·弗洛伊德"
+    },
+    {
+      "title": "爱的艺术",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q704019",
+      "author": "奥维德"
+    },
+    {
+      "title": "夜访吸血鬼",
+      "aliases": [
+        "夜訪吸血鬼"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q176470",
+      "author": "安妮·莱斯"
+    },
+    {
+      "title": "荒原狼",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q217073",
+      "author": "赫尔曼·黑塞"
+    },
+    {
+      "title": "哈利波特－火盃的考驗",
+      "aliases": [
+        "哈利·波特与火焰杯"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q46751",
+      "author": "J·K·罗琳"
+    },
+    {
+      "title": "哈利·波特与死亡圣器",
+      "aliases": [
+        "哈利波特－死神的聖物"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q46758",
+      "author": "J·K·罗琳"
+    },
+    {
+      "title": "秘密花園",
+      "aliases": [
+        "秘密花园"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q692567",
+      "author": "奥克塔夫·米尔博"
+    },
+    {
+      "title": "詩語法",
+      "aliases": [
+        "诗人的艺术语言",
+        "詩人的藝術語言"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q178075",
+      "author": "斯诺里·斯蒂德吕松"
+    },
+    {
+      "title": "傻大膽學害怕",
+      "aliases": [
+        "傻大胆学害怕"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q694844",
+      "author": "格林兄弟、雅各布·格林、威廉·格林"
+    },
+    {
+      "title": "磨坊书简",
+      "aliases": [
+        "磨坊書簡"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q180471",
+      "author": "阿尔封斯·都德"
+    },
+    {
+      "title": "沉睡谷传奇",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q72309",
+      "author": "华盛顿·欧文"
+    },
+    {
+      "title": "资本论",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q58784",
+      "author": "卡尔·马克思"
+    },
+    {
+      "title": "三國演義",
+      "aliases": [
+        "三国演义"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q70806",
+      "author": "罗贯中"
+    },
+    {
+      "title": "巴斯克維爾的獵犬",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q45192",
+      "author": "阿瑟·柯南·道尔"
+    },
+    {
+      "title": "魔龙的狂舞",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q28306",
+      "author": "乔治·R·R·马丁"
+    },
+    {
+      "title": "打鬼戰士II：檔案Z",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q28172",
+      "author": "麦克斯·布鲁克斯"
+    },
+    {
+      "title": "哈利波特─阿茲卡班的逃犯",
+      "aliases": [
+        "哈利·波特与阿兹卡班囚徒"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q47598",
+      "author": "J·K·罗琳"
+    },
+    {
+      "title": "一個都不留",
+      "aliases": [
+        "无人生还"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q214132",
+      "author": "阿加莎·克里斯蒂"
+    },
+    {
+      "title": "千面英雄",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q176734",
+      "author": "约瑟夫·坎贝尔"
+    },
+    {
+      "title": "爱情三论",
+      "aliases": [
+        "愛情三論"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q474088",
+      "author": "奥维德"
+    },
+    {
+      "title": "托尼奥·克律格",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q692988",
+      "author": "托马斯·曼"
+    },
+    {
+      "title": "瘋狂奧蘭多",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q48922",
+      "author": "阿里奥斯托"
+    },
+    {
+      "title": "水浒传",
+      "aliases": [
+        "水滸傳"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q70827",
+      "author": "施耐庵"
+    },
+    {
+      "title": "化身博士",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q217352",
+      "author": "罗伯特·路易斯·史蒂文森"
+    },
+    {
+      "title": "带驼峰的小马驹",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q378625",
+      "author": "叶尔绍夫， P.P."
+    },
+    {
+      "title": "曼谷的發條女孩",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q92630",
+      "author": "保羅·巴奇加盧比"
+    },
+    {
+      "title": "愛麗絲夢遊仙境",
+      "aliases": [
+        "爱丽丝梦游仙境"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q92640",
+      "author": "刘易斯·卡罗尔"
+    },
+    {
+      "title": "我們",
+      "aliases": [
+        "我们"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q83799",
+      "author": "叶夫根尼·扎米亚京"
+    },
+    {
+      "title": "賈思潘王子",
+      "aliases": [
+        "凯斯宾王子",
+        "卡斯柏王子"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q218950",
+      "author": "克利夫·史戴普·路易斯"
+    },
+    {
+      "title": "娥摩拉",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q50857",
+      "author": "罗伯托·萨维亚诺"
+    },
+    {
+      "title": "蘇菲的世界",
+      "aliases": [
+        "苏菲的世界"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q61324",
+      "author": "乔斯坦·贾德"
+    },
+    {
+      "title": "美国",
+      "aliases": [
+        "美國"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q48229",
+      "author": "弗朗茨·卡夫卡"
+    },
+    {
+      "title": "定居之書",
+      "aliases": [
+        "殖民之书",
+        "殖民之書"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q217835",
+      "author": "阿里·索爾吉爾松"
+    },
+    {
+      "title": "路加福音",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q39939",
+      "author": "路加"
+    },
+    {
+      "title": "蓬头彼得",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q27912",
+      "author": "海因里希·霍夫曼 (精神学家)"
+    },
+    {
+      "title": "冰島人之書",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q183362",
+      "author": "阿里·索爾吉爾松"
+    },
+    {
+      "title": "唯物主義和經驗批判主義",
+      "aliases": [
+        "唯物主义和经验批判主义"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q706081",
+      "author": "列宁"
+    },
+    {
+      "title": "哈利·波特与“混血王子”",
+      "aliases": [
+        "哈利波特－混血王子的背叛"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q46887",
+      "author": "J·K·罗琳"
+    },
+    {
+      "title": "哈利·波特与密室",
+      "aliases": [
+        "哈利波特─消失的密室"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q47209",
+      "author": "J·K·罗琳"
+    },
+    {
+      "title": "我的奋斗",
+      "aliases": [
+        "我的奮鬥"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q48244",
+      "author": "阿道夫·希特勒"
+    },
+    {
+      "title": "憨第德",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q215894",
+      "author": "伏尔泰"
+    },
+    {
+      "title": "在陶里斯的伊菲革涅亚",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q475063",
+      "author": "约翰·沃尔夫冈·冯·歌德"
+    },
+    {
+      "title": "爱弥儿",
+      "aliases": [
+        "愛彌兒"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q913599",
+      "author": "让-雅克·卢梭"
+    },
+    {
+      "title": "霍斯陆和席琳",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q61076",
+      "author": "尼扎米"
+    },
+    {
+      "title": "大亨小傳",
+      "aliases": [
+        "了不起的盖茨比",
+        "大亨小传"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q214371",
+      "author": "弗朗西斯·斯科特·菲茨杰拉德"
+    },
+    {
+      "title": "永乐大典",
+      "aliases": [
+        "永樂大典"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q696077",
+      "author": "多位作家"
+    },
+    {
+      "title": "11/22/63",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q723020",
+      "author": "斯蒂芬·金"
+    },
+    {
+      "title": "綠皮書",
+      "aliases": [
+        "绿皮书"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q107790",
+      "author": "穆阿迈尔·卡扎菲"
+    },
+    {
+      "title": "叶甫盖尼·奥涅金",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q50948",
+      "author": "亚历山大·谢尔盖耶维奇·普希金"
+    },
+    {
+      "title": "哈利波特－鳳凰會的密令",
+      "aliases": [
+        "哈利·波特与凤凰社"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q80817",
+      "author": "J·K·罗琳"
+    },
+    {
+      "title": "浮士德博士悲劇",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q50919",
+      "author": "克里斯托弗·馬洛"
+    },
+    {
+      "title": "火星公主",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q475589",
+      "author": "埃德加·赖斯·巴勒斯"
+    },
+    {
+      "title": "第十四道門",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q475125",
+      "author": "尼尔·盖曼"
+    },
+    {
+      "title": "羅傑·艾克洛命案",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q224078",
+      "author": "阿加莎·克里斯蒂"
+    },
+    {
+      "title": "最傻的傻瓜",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q705839",
+      "author": "漢斯·雅各布·馮·克里斯托·格里梅爾斯豪森"
+    },
+    {
+      "title": "賭徒",
+      "aliases": [
+        "赌徒"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q223688",
+      "author": "费奥多尔·米哈伊洛维奇·陀思妥耶夫斯基"
+    },
+    {
+      "title": "暮光之城：破曉",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q53945",
+      "author": "斯蒂芬妮·迈耶"
+    },
+    {
+      "title": "雇傭勞動與資本",
+      "aliases": [
+        "僱傭勞動與資本"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q225684",
+      "author": "卡尔·马克思"
+    },
+    {
+      "title": "静静的顿河",
+      "aliases": [
+        "靜靜頓河",
+        "靜靜的頓河"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q75840",
+      "author": "米哈依尔·肖洛霍夫"
+    },
+    {
+      "title": "精靈寶鑽",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q79762",
+      "author": "J·R·R·托尔金"
+    },
+    {
+      "title": "頑童歷險記",
+      "aliases": [
+        "哈克贝利·费恩历险记"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q215410",
+      "author": "马克·吐温"
+    },
+    {
+      "title": "阿尼阿拉号",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q225976",
+      "author": "哈里·马丁松"
+    },
+    {
+      "title": "三个织工",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q222886",
+      "author": "雅各布·格林、威廉·格林、格林兄弟"
+    },
+    {
+      "title": "中午的黑暗",
+      "aliases": [
+        "黑色的烈日"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q73580",
+      "author": "阿瑟·库斯勒"
+    },
+    {
+      "title": "馬可福音",
+      "aliases": [
+        "马可福音"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q107388",
+      "author": "約翰‧馬可"
+    },
+    {
+      "title": "獅子·女巫·魔衣櫥",
+      "aliases": [
+        "狮子·女巫·魔衣橱"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q485093",
+      "author": "克利夫·史戴普·路易斯"
+    },
+    {
+      "title": "鲁滨逊漂流记",
+      "aliases": [
+        "魯濱遜漂流記"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q483034",
+      "author": "丹尼尔·笛福"
+    },
+    {
+      "title": "野性的呼唤",
+      "aliases": [
+        "野性的呼喚"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q476871",
+      "author": "杰克·伦敦"
+    },
+    {
+      "title": "道德书简",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q720535",
+      "author": "塞內卡"
+    },
+    {
+      "title": "鼠族",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q59696",
+      "author": "阿爾玆·施皮格爾曼"
+    },
+    {
+      "title": "怀疑派化学家",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q60161",
+      "author": "罗伯特·波义耳"
+    },
+    {
+      "title": "哥林多前書",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q80355",
+      "author": "保罗"
+    },
+    {
+      "title": "魔法師的外甥",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q477831",
+      "author": "克利夫·史戴普·路易斯"
+    },
+    {
+      "title": "貓和老鼠",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q110648",
+      "author": "格林兄弟、雅各布·格林、威廉·格林"
+    },
+    {
+      "title": "到燈塔去",
+      "aliases": [
+        "航向燈塔",
+        "燈塔行"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q478016",
+      "author": "弗吉尼亚·伍尔夫"
+    },
+    {
+      "title": "挪威王列傳",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q215806",
+      "author": "斯诺里·斯蒂德吕松"
+    },
+    {
+      "title": "血字的研究",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q223131",
+      "author": "阿瑟·柯南·道尔"
+    },
+    {
+      "title": "兒子與情人",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q80771",
+      "author": "大卫·赫伯特·劳伦斯"
+    },
+    {
+      "title": "瓶中稿",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q604098",
+      "author": "爱伦·坡"
+    },
+    {
+      "title": "雲中奇案",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q604922",
+      "author": "阿加莎·克里斯蒂"
+    },
+    {
+      "title": "美國的悲劇",
+      "aliases": [
+        "一個亞美利加的悲劇"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q604418",
+      "author": "西奥多·德莱赛"
+    },
+    {
+      "title": "远大前程",
+      "aliases": [
+        "遠大前程"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q219552",
+      "author": "查尔斯·狄更斯"
+    },
+    {
+      "title": "天國八福",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q51643",
+      "author": "耶稣"
+    },
+    {
+      "title": "無政府、國家與烏托邦",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q486385",
+      "author": "罗伯特·诺齐克"
+    },
+    {
+      "title": "暗夜無星",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q244884",
+      "author": "斯蒂芬·金"
+    },
+    {
+      "title": "纽伦堡编年史",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q907934",
+      "author": "哈特曼·舍德尔"
+    },
+    {
+      "title": "紅字",
+      "aliases": [
+        "红字"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q907568",
+      "author": "纳撒尼尔·霍桑"
+    },
+    {
+      "title": "欲经",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q47228",
+      "author": "瓦茨亞亞那"
+    },
+    {
+      "title": "罗兰之歌",
+      "aliases": [
+        "羅蘭之歌"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q185427",
+      "author": "Turold"
+    },
+    {
+      "title": "龍騎士四部曲：最後榮耀",
+      "aliases": [
+        "帝国（下）",
+        "帝國（下）"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q60672",
+      "author": "克里斯托弗·鲍里尼"
+    },
+    {
+      "title": "论李维",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q924424",
+      "author": "尼科洛·马基雅维利"
+    },
+    {
+      "title": "四库全书",
+      "aliases": [
+        "四庫全書"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q699477",
+      "author": "多位作家"
+    },
+    {
+      "title": "金银岛",
+      "aliases": [
+        "金銀島"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q185118",
+      "author": "罗伯特·路易斯·史蒂文森"
+    },
+    {
+      "title": "第一哲學沉思集",
+      "aliases": [
+        "第一哲學沉思錄",
+        "第一哲学沉思集"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q605790",
+      "author": "勒内·笛卡儿"
+    },
+    {
+      "title": "埃涅阿斯纪",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q60220",
+      "author": "维吉尔"
+    },
+    {
+      "title": "新月莊的艾蜜莉",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q73706",
+      "author": "露西·莫德·蒙哥马利"
+    },
+    {
+      "title": "大伍頓的史密斯",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q478250",
+      "author": "J·R·R·托尔金"
+    },
+    {
+      "title": "汉堡大主教史",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q698513",
+      "author": "不来梅的亚当"
+    },
+    {
+      "title": "小氣財神",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q62879",
+      "author": "查尔斯·狄更斯"
+    },
+    {
+      "title": "勇气之母与她的子女们",
+      "aliases": [
+        "勇氣之母與她的子女們"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q62407",
+      "author": "贝尔托·布莱希特"
+    },
+    {
+      "title": "从地球到月球",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q53592",
+      "author": "儒勒·凡尔纳"
+    },
+    {
+      "title": "惡魔的發明",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q221765",
+      "author": "儒勒·凡尔纳"
+    },
+    {
+      "title": "姊妹",
+      "aliases": [
+        "姐妹"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q461303",
+      "author": "凱瑟琳·史托基特"
+    },
+    {
+      "title": "窮人",
+      "aliases": [
+        "穷人"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q117293",
+      "author": "费奥多尔·米哈伊洛维奇·陀思妥耶夫斯基"
+    },
+    {
+      "title": "阿瓦隆的迷雾",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q605697",
+      "author": "瑪麗恩·季默·布拉德利"
+    },
+    {
+      "title": "红发会",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q461026",
+      "author": "阿瑟·柯南·道尔"
+    },
+    {
+      "title": "论永久和平",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q229583",
+      "author": "伊曼努尔·康德"
+    },
+    {
+      "title": "最后一案",
+      "aliases": [
+        "最後一案"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q228119",
+      "author": "阿瑟·柯南·道尔"
+    },
+    {
+      "title": "地心歷險記",
+      "aliases": [
+        "地心历险记"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q219457",
+      "author": "儒勒·凡尔纳"
+    },
+    {
+      "title": "道林·格雷的画像",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q82464",
+      "author": "奧斯卡·王爾德"
+    },
+    {
+      "title": "不来梅的城市乐手",
+      "aliases": [
+        "不來梅的城市樂手",
+        "不萊梅的樂隊"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q112015",
+      "author": "格林兄弟、雅各布·格林、威廉·格林"
+    },
+    {
+      "title": "亨利六世（上）",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q643236",
+      "author": "威廉·莎士比亚"
+    },
+    {
+      "title": "國富論",
+      "aliases": [
+        "国富论"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q233562",
+      "author": "亚当·斯密"
+    },
+    {
+      "title": "愛麗絲鏡中奇遇",
+      "aliases": [
+        "爱丽丝镜中奇遇"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q220331",
+      "author": "刘易斯·卡罗尔"
+    },
+    {
+      "title": "獵殺第四行者",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q459983",
+      "author": "詹姆斯·弗雷、Jobie Hughes"
+    },
+    {
+      "title": "魔符",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q462454",
+      "author": "斯蒂芬·金、彼得·史超伯"
+    },
+    {
+      "title": "2666",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q219437",
+      "author": "罗贝托·波拉尼奥"
+    },
+    {
+      "title": "續日本紀",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q611399",
+      "author": "藤原継縄、菅野眞道"
+    },
+    {
+      "title": "约丽丹和约雷德尔",
+      "aliases": [
+        "約麗丹和約雷德爾"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q463523",
+      "author": "格林兄弟、威廉·格林、雅各布·格林"
+    },
+    {
+      "title": "道德譜系學",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q230302",
+      "author": "弗里德里希·尼采"
+    },
+    {
+      "title": "說不完的故事",
+      "aliases": [
+        "全部說不完的故事"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q463108",
+      "author": "米歇爾·恩德"
+    },
+    {
+      "title": "龍騎士三部曲：降魔火劍",
+      "aliases": [
+        "帝国（上）",
+        "帝國（上）"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q718289",
+      "author": "克里斯托弗·鲍里尼"
+    },
+    {
+      "title": "莫洛博士岛",
+      "aliases": [
+        "莫洛博士島"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q718268",
+      "author": "赫伯特·喬治·威爾斯"
+    },
+    {
+      "title": "魔島",
+      "aliases": [
+        "魔岛"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q909502",
+      "author": "斯蒂芬·金"
+    },
+    {
+      "title": "鋼穴",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q482085",
+      "author": "艾萨克·阿西莫夫"
+    },
+    {
+      "title": "火與劍",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q927292",
+      "author": "亨利克·亞當·亞歷山大·皮烏斯·显克微支"
+    },
+    {
+      "title": "伊拉龙（小说）",
+      "aliases": [
+        "伊拉龙",
+        "龍騎士首部曲:飛龍聖戰"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q185449",
+      "author": "克里斯托弗·鲍里尼"
+    },
+    {
+      "title": "人鼠之間",
+      "aliases": [
+        "人鼠之间"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q457977",
+      "author": "约翰·斯坦贝克"
+    },
+    {
+      "title": "仿生人会梦见电子羊吗",
+      "aliases": [
+        "仿生人會夢見电子羊吗？"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q605249",
+      "author": "菲利普·迪克"
+    },
+    {
+      "title": "香水",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q459303",
+      "author": "帕特里克·聚斯金德"
+    },
+    {
+      "title": "薄餅坪",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q606720",
+      "author": "约翰·斯坦贝克"
+    },
+    {
+      "title": "風之影",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q52910",
+      "author": "卡洛斯·鲁依斯·萨丰"
+    },
+    {
+      "title": "煉獄",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q605018",
+      "author": "但丁·阿利吉耶里"
+    },
+    {
+      "title": "迁徙北方的季节",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q921128",
+      "author": "塔伊布·萨利赫"
+    },
+    {
+      "title": "新五代史",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q919488",
+      "author": "欧阳修"
+    },
+    {
+      "title": "人類理解論",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q482438",
+      "author": "约翰·洛克"
+    },
+    {
+      "title": "達文西密碼",
+      "aliases": [
+        "达芬奇密码"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q81689",
+      "author": "丹·布朗"
+    },
+    {
+      "title": "高盧戰記",
+      "aliases": [
+        "高卢战记"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q106199",
+      "author": "凯撒"
+    },
+    {
+      "title": "刺鳥",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q606465",
+      "author": "考琳·麦卡洛"
+    },
+    {
+      "title": "马格斯·哈弗拉尔",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q919067",
+      "author": "穆尔塔图里"
+    },
+    {
+      "title": "第一本書",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q81413",
+      "author": "柴门霍夫"
+    },
+    {
+      "title": "諾桑覺寺",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q477508",
+      "author": "简·奥斯丁"
+    },
+    {
+      "title": "來自新世界",
+      "aliases": [
+        "来自新世界"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q719816",
+      "author": "贵志祐介"
+    },
+    {
+      "title": "薄伽梵譚",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q46802",
+      "author": "广博仙人"
+    },
+    {
+      "title": "罗马帝王纪",
+      "aliases": [
+        "罗马皇帝传",
+        "羅馬皇帝傳"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q722678",
+      "author": "Scriptores Historiae Augustae"
+    },
+    {
+      "title": "教父",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q243556",
+      "author": "马里奥·普佐"
+    },
+    {
+      "title": "尋愛綺夢",
+      "aliases": [
+        "寻爱绮梦"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q914235",
+      "author": "Francesco Colonna"
+    },
+    {
+      "title": "密碼",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q120595",
+      "author": "阿加莎·克里斯蒂"
+    },
+    {
+      "title": "艾希曼在耶路撒冷",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q480743",
+      "author": "汉娜·阿伦特"
+    },
+    {
+      "title": "矩形箱子",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q929455",
+      "author": "爱伦·坡"
+    },
+    {
+      "title": "宿主",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q464220",
+      "author": "斯蒂芬妮·迈耶"
+    },
+    {
+      "title": "五卷书",
+      "aliases": [
+        "五卷書"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q233780",
+      "author": "毗濕奴·夏爾馬"
+    },
+    {
+      "title": "史力加！",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q920424",
+      "author": "威廉·斯泰格"
+    },
+    {
+      "title": "看得见风景的房间",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q120288",
+      "author": "E·M·福斯特"
+    },
+    {
+      "title": "地铁2033",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q916423",
+      "author": "德米特里·格鲁霍夫斯基"
+    },
+    {
+      "title": "慕善集",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q929140",
+      "author": "Nicodemus the Hagiorite、Macarius of Corinth"
+    },
+    {
+      "title": "十一分鐘",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q247379",
+      "author": "保罗·科埃略"
+    },
+    {
+      "title": "黑屋",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q239725",
+      "author": "彼得·史超伯、斯蒂芬·金"
+    },
+    {
+      "title": "三國遺事",
+      "aliases": [
+        "三国遗事"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q485538",
+      "author": "一然"
+    },
+    {
+      "title": "歡迎加入NHK！",
+      "aliases": [
+        "欢迎加入NHK！"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q482535",
+      "author": "泷本龙彦"
+    },
+    {
+      "title": "单向度的人",
+      "aliases": [
+        "單向度的人"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q914217",
+      "author": "赫伯特·马尔库塞"
+    },
+    {
+      "title": "爱达或爱欲：一部家族纪事",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q117431",
+      "author": "弗拉基米尔·纳博科夫"
+    },
+    {
+      "title": "不列顛諸王史",
+      "aliases": [
+        "不列颠诸王史"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q238693",
+      "author": "蒙茅斯的杰佛里"
+    },
+    {
+      "title": "夜色温柔",
+      "aliases": [
+        "夜色溫柔",
+        "夜未央"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q247372",
+      "author": "弗朗西斯·斯科特·菲茨杰拉德"
+    },
+    {
+      "title": "帝國治論",
+      "aliases": [
+        "军区概论",
+        "軍區概論"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q463903",
+      "author": "君士坦丁七世"
+    },
+    {
+      "title": "塞瓦斯托波尔随笔",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q647268",
+      "author": "列夫·托尔斯泰"
+    },
+    {
+      "title": "伊斯蘭教聖書",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q235131",
+      "author": "伊斯兰教的神"
+    },
+    {
+      "title": "馬爾他的猶太人",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q649741",
+      "author": "克里斯托弗·馬洛"
+    },
+    {
+      "title": "聊齋志異",
+      "aliases": [
+        "聊斋志异"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q83755",
+      "author": "蒲松龄"
+    },
+    {
+      "title": "理想国",
+      "aliases": [
+        "理想國"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q123397",
+      "author": "柏拉图"
+    },
+    {
+      "title": "腓立比書",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q51613",
+      "author": "保罗"
+    },
+    {
+      "title": "死魂靈",
+      "aliases": [
+        "死魂灵"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q647379",
+      "author": "尼古拉·果戈理"
+    },
+    {
+      "title": "人魔 (小說)",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q929184",
+      "author": "汤玛斯·哈里斯"
+    },
+    {
+      "title": "德語詞典",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q96321",
+      "author": "格林兄弟"
+    },
+    {
+      "title": "火星纪事",
+      "aliases": [
+        "火星紀事"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q918052",
+      "author": "雷·布拉德伯里"
+    },
+    {
+      "title": "沉默的海",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q567062",
+      "author": "尚·布魯勒"
+    },
+    {
+      "title": "Another",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q567884",
+      "author": "绫辻行人"
+    },
+    {
+      "title": "金鵝",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q652607",
+      "author": "格林兄弟、雅各布·格林、威廉·格林"
+    },
+    {
+      "title": "游叙弗伦篇",
+      "aliases": [
+        "尤西弗罗",
+        "尤西弗羅"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q648889",
+      "author": "柏拉图"
+    },
+    {
+      "title": "通往宇宙之门",
+      "aliases": [
+        "通往宇宙之門"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q651682",
+      "author": "弗雷德里克·波爾"
+    },
+    {
+      "title": "三国史记",
+      "aliases": [
+        "三國史記"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q485552",
+      "author": "金富轼"
+    },
+    {
+      "title": "三字经",
+      "aliases": [
+        "三字經"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q603260",
+      "author": "王应麟、儒莲"
+    },
+    {
+      "title": "黄色壁纸",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q462373",
+      "author": "夏綠蒂·柏金斯·吉爾曼"
+    },
+    {
+      "title": "小希庇亞篇",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q614640",
+      "author": "柏拉图"
+    },
+    {
+      "title": "三隻小豬",
+      "aliases": [
+        "三只小猪"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q651532",
+      "author": "James Halliwell-Phillipps"
+    },
+    {
+      "title": "热铁皮屋顶上的猫",
+      "aliases": [
+        "炙簷之上"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q606930",
+      "author": "田纳西·威廉斯"
+    },
+    {
+      "title": "弗德馬先生案例的真相",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q612026",
+      "author": "爱伦·坡"
+    },
+    {
+      "title": "左傳",
+      "aliases": [
+        "左传"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q230230",
+      "author": "左丘明"
+    },
+    {
+      "title": "图腾与禁忌",
+      "aliases": [
+        "圖騰與禁忌"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q910769",
+      "author": "西格蒙德·弗洛伊德"
+    },
+    {
+      "title": "怪屋",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q465492",
+      "author": "阿加莎·克里斯蒂"
+    },
+    {
+      "title": "一，二，縫好鞋釦",
+      "aliases": [
+        "一，二，縫好鞋扣"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q465649",
+      "author": "阿加莎·克里斯蒂"
+    },
+    {
+      "title": "摩尔·弗兰德斯",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q612523",
+      "author": "丹尼尔·笛福"
+    },
+    {
+      "title": "指导心灵的规则",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q1206702",
+      "author": "勒内·笛卡儿"
+    },
+    {
+      "title": "消逝的六芒星",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q603645",
+      "author": "迈克尔·沙邦"
+    },
+    {
+      "title": "都柏林人",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q459592",
+      "author": "詹姆斯·乔伊斯"
+    },
+    {
+      "title": "名利场",
+      "aliases": [
+        "浮華世界"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q612836",
+      "author": "威廉·梅克比斯·萨克雷"
+    },
+    {
+      "title": "匹克威克外传",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q460583",
+      "author": "查尔斯·狄更斯"
+    },
+    {
+      "title": "提毗薄伽梵往世书",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q1206749",
+      "author": "广博仙人"
+    },
+    {
+      "title": "女神頌",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q1206760",
+      "author": "广博仙人"
+    },
+    {
+      "title": "阿Q正傳",
+      "aliases": [
+        "阿Q正传"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q613121",
+      "author": "鲁迅"
+    },
+    {
+      "title": "源頭",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q612688",
+      "author": "安·兰德"
+    },
+    {
+      "title": "三體",
+      "aliases": [
+        "三体"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q607112",
+      "author": "刘慈欣"
+    },
+    {
+      "title": "杜松樹",
+      "aliases": [
+        "杜松树"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q560960",
+      "author": "格林兄弟、威廉·格林、雅各布·格林"
+    },
+    {
+      "title": "地獄藍調（小說）",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q911224",
+      "author": "李·查德"
+    },
+    {
+      "title": "老水手之歌 (鐵娘子歌曲)",
+      "aliases": [
+        "the rime of the ancient mariner"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q708177",
+      "author": "塞缪尔·泰勒·柯勒律治"
+    },
+    {
+      "title": "楠塔基特的亞瑟戈登·皮姆的自述",
+      "aliases": [
+        "楠塔基特的亚瑟戈登·皮姆的自述"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q615383",
+      "author": "爱伦·坡"
+    },
+    {
+      "title": "福爾摩斯歸來記",
+      "aliases": [
+        "福尔摩斯归来记"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q725752",
+      "author": "阿瑟·柯南·道尔"
+    },
+    {
+      "title": "愛瑪",
+      "aliases": [
+        "爱玛"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q223880",
+      "author": "简·奥斯丁"
+    },
+    {
+      "title": "繁星若塵",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q464691",
+      "author": "艾萨克·阿西莫夫"
+    },
+    {
+      "title": "十二把椅子",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q245194",
+      "author": "伊里夫和彼得罗夫、伊利亚·伊里夫、叶夫根尼·彼得罗夫"
+    },
+    {
+      "title": "作为意志和表象的世界",
+      "aliases": [
+        "作為意志和表象的世界"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q560352",
+      "author": "亚瑟·叔本华"
+    },
+    {
+      "title": "高老頭",
+      "aliases": [
+        "高老头"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q240617",
+      "author": "巴尔扎克"
+    },
+    {
+      "title": "公主與哥布林",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q466505",
+      "author": "喬治·麥克唐納"
+    },
+    {
+      "title": "金树枝",
+      "aliases": [
+        "金樹枝",
+        "金枝"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q651283",
+      "author": "詹姆斯·弗雷泽"
+    },
+    {
+      "title": "流浪者之歌",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q457289",
+      "author": "赫尔曼·黑塞"
+    },
+    {
+      "title": "环游黑海历险记",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q644271",
+      "author": "儒勒·凡尔纳"
+    },
+    {
+      "title": "歲月的泡沫",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q645906",
+      "author": "鲍里斯·维安"
+    },
+    {
+      "title": "查理與巧克力工廠",
+      "aliases": [
+        "查理与巧克力工厂"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q466605",
+      "author": "羅爾德·達爾"
+    },
+    {
+      "title": "美國殺人魔 (小說)",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q466504",
+      "author": "布莱特·伊斯顿·埃利斯"
+    },
+    {
+      "title": "戰地春夢",
+      "aliases": [
+        "永别了，武器",
+        "战地春梦"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q235795",
+      "author": "欧内斯特·海明威"
+    },
+    {
+      "title": "黑塔V 卡拉之狼",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q247364",
+      "author": "斯蒂芬·金"
+    },
+    {
+      "title": "愛情神話",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q246732",
+      "author": "彼特罗纽斯"
+    },
+    {
+      "title": "凯旋门 (小说)",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q464921",
+      "author": "埃里希·玛利亚·雷马克"
+    },
+    {
+      "title": "圣奥思定准则",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q644892",
+      "author": "希波的奥古斯丁"
+    },
+    {
+      "title": "莫爾格街兇殺案",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q459667",
+      "author": "爱伦·坡"
+    },
+    {
+      "title": "巴石立花園街謀殺案",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q650508",
+      "author": "阿加莎·克里斯蒂"
+    },
+    {
+      "title": "劫夢驚魂",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q569790",
+      "author": "斯蒂芬·金"
+    },
+    {
+      "title": "安娜贝尔·李",
+      "aliases": [
+        "安娜貝爾·李"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q564072",
+      "author": "爱伦·坡"
+    },
+    {
+      "title": "瑞蓋特村之謎",
+      "aliases": [
+        "瑞盖特村之谜"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q1201803",
+      "author": "阿瑟·柯南·道尔"
+    },
+    {
+      "title": "黃色臉孔",
+      "aliases": [
+        "黄色脸孔"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q1202029",
+      "author": "阿瑟·柯南·道尔"
+    },
+    {
+      "title": "榮蘇號",
+      "aliases": [
+        "荣苏号"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q1201436",
+      "author": "阿瑟·柯南·道尔"
+    },
+    {
+      "title": "月亮之梦",
+      "aliases": [
+        "月亮之夢"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q1201483",
+      "author": "约翰内斯·开普勒"
+    },
+    {
+      "title": "黑塔：穿過鎖匙孔的風",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q923111",
+      "author": "斯蒂芬·金"
+    },
+    {
+      "title": "薩朗波",
+      "aliases": [
+        "萨朗波 (小说)",
+        "萨朗波",
+        "薩朗波 (小說)"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q117182",
+      "author": "古斯塔夫·福樓拜"
+    },
+    {
+      "title": "忏悔录",
+      "aliases": [
+        "懺悔錄"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q1207595",
+      "author": "让-雅克·卢梭"
+    },
+    {
+      "title": "德伯家的苔丝",
+      "aliases": [
+        "德伯家的苔絲"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q649409",
+      "author": "托马斯·哈代"
+    },
+    {
+      "title": "騎士蒂朗：少女陰謀",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q559667",
+      "author": "祖亞諾·馬杜尼"
+    },
+    {
+      "title": "自動演奏鋼琴",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q649267",
+      "author": "库尔特·冯内古特"
+    },
+    {
+      "title": "魔法世界：聖誕老爹的秘密",
+      "aliases": [
+        "魔法世界：聖誕老爹的祕密"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q925723",
+      "author": "泰瑞·普萊契"
+    },
+    {
+      "title": "愚人颂",
+      "aliases": [
+        "praise of folly"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q569869",
+      "author": "德西德里乌斯·伊拉斯谟"
+    },
+    {
+      "title": "3001太空漫遊",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q223784",
+      "author": "亞瑟·查理斯·克拉克"
+    },
+    {
+      "title": "当睡者醒来时",
+      "aliases": [
+        "當睡者醒來時"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q650949",
+      "author": "赫伯特·喬治·威爾斯"
+    },
+    {
+      "title": "瞧！这个人",
+      "aliases": [
+        "瞧！這個人"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q861527",
+      "author": "弗里德里希·尼采"
+    },
+    {
+      "title": "阿甘正传",
+      "aliases": [
+        "阿甘正傳",
+        "阿甘正传 (小说)"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q552213",
+      "author": "溫斯頓·葛倫"
+    },
+    {
+      "title": "狐狸与猎狗",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q918060",
+      "author": "丹尼尔·P·曼尼克斯"
+    },
+    {
+      "title": "哥林多後書",
+      "aliases": [
+        "哥林多后书"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q123808",
+      "author": "保罗"
+    },
+    {
+      "title": "奥克西林库斯史家",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q552400",
+      "author": "Anonymus of the Hellenica Oxyrhynchia"
+    },
+    {
+      "title": "生命中不能承受之轻",
+      "aliases": [
+        "生命中不能承受之輕"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q917055",
+      "author": "米兰·昆德拉"
+    },
+    {
+      "title": "好餓的毛毛蟲",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q491657",
+      "author": "卡爾,"
+    },
+    {
+      "title": "九章算术",
+      "aliases": [
+        "九章算術"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q657057",
+      "author": "多位作家"
+    },
+    {
+      "title": "哲學的慰藉",
+      "aliases": [
+        "《哲學的慰藉》",
+        "哲学的慰藉"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q861927",
+      "author": "波伊提乌"
+    },
+    {
+      "title": "非關命運",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q655701",
+      "author": "凯尔泰斯·伊姆雷"
+    },
+    {
+      "title": "嘔吐",
+      "aliases": [
+        "恶心"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q658288",
+      "author": "让-保罗·萨特"
+    },
+    {
+      "title": "靈魂之書",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q125469",
+      "author": "薩帕爾穆拉特·阿塔耶維奇·尼亞佐夫"
+    },
+    {
+      "title": "四月提綱",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q622099",
+      "author": "列宁"
+    },
+    {
+      "title": "紅樺莊探案",
+      "aliases": [
+        "红桦庄探案"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q1201451",
+      "author": "阿瑟·柯南·道尔"
+    },
+    {
+      "title": "綠玉冠探案",
+      "aliases": [
+        "绿玉冠探案"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q1201796",
+      "author": "阿瑟·柯南·道尔"
+    },
+    {
+      "title": "三體II：黑暗森林",
+      "aliases": [
+        "三体II：黑暗森林"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q607276",
+      "author": "刘慈欣"
+    },
+    {
+      "title": "三體III：死神永生",
+      "aliases": [
+        "三体III：死神永生"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q607511",
+      "author": "刘慈欣"
+    },
+    {
+      "title": "强盗",
+      "aliases": [
+        "强盗 (戏剧)",
+        "強盜 (戲劇)"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q466333",
+      "author": "弗里德里希·席勒"
+    },
+    {
+      "title": "帕尔街的男孩们",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q460661",
+      "author": "莫尔纳·费伦茨"
+    },
+    {
+      "title": "長夜漫漫路迢迢",
+      "aliases": [
+        "进入黑夜的漫长旅程",
+        "長路漫漫入夜深"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q618430",
+      "author": "尤金·奥尼尔"
+    },
+    {
+      "title": "論猶太民族問題",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q230307",
+      "author": "卡尔·马克思"
+    },
+    {
+      "title": "黑格尔法哲学批判",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q230313",
+      "author": "卡尔·马克思"
+    },
+    {
+      "title": "詩經",
+      "aliases": [
+        "诗经"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q465108",
+      "author": "多位作家"
+    },
+    {
+      "title": "汤姆·琼斯",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q248096",
+      "author": "亨利·菲尔丁"
+    },
+    {
+      "title": "虹彩六號",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q248745",
+      "author": "汤姆·克兰西"
+    },
+    {
+      "title": "枕草子",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q615137",
+      "author": "清少纳言"
+    },
+    {
+      "title": "對德意志民族的演講",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q655413",
+      "author": "约翰·戈特利布·费希特"
+    },
+    {
+      "title": "一無所有 (小說)",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q467720",
+      "author": "厄休拉·勒吉恩"
+    },
+    {
+      "title": "印度之旅",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q622303",
+      "author": "E·M·福斯特"
+    },
+    {
+      "title": "雪莉",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q615175",
+      "author": "夏洛特·勃朗特"
+    },
+    {
+      "title": "單子論",
+      "aliases": [
+        "单子论"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q1211539",
+      "author": "哥特弗里德·威廉·莱布尼茨"
+    },
+    {
+      "title": "仕女圖 (小說)",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q861017",
+      "author": "亨利·詹姆斯"
+    },
+    {
+      "title": "维吉尔附录",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q620858",
+      "author": "authors of Appendix Vergiliana"
+    },
+    {
+      "title": "十五少年漂流記",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q232055",
+      "author": "儒勒·凡尔纳"
+    },
+    {
+      "title": "海边的卡夫卡",
+      "aliases": [
+        "海邊的卡夫卡"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q579744",
+      "author": "村上春树"
+    },
+    {
+      "title": "福爾摩斯回憶錄",
+      "aliases": [
+        "福尔摩斯回忆录"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q860831",
+      "author": "阿瑟·柯南·道尔"
+    },
+    {
+      "title": "国境以南 太阳以西",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q466412",
+      "author": "村上春树"
+    },
+    {
+      "title": "尤比克",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q617357",
+      "author": "菲利普·迪克"
+    },
+    {
+      "title": "追憶逝水年華",
+      "aliases": [
+        "追忆逝水年华"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q464928",
+      "author": "马塞尔·普鲁斯特"
+    },
+    {
+      "title": "阿里斯提阿书",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q615046",
+      "author": "Aristeas"
+    },
+    {
+      "title": "四川好人",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q555959",
+      "author": "贝尔托·布莱希特、瑪格麗特·史蒂芬、Ruth Berlau"
+    },
+    {
+      "title": "瞎猫头鹰",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q1211660",
+      "author": "萨迪克·希达亚特"
+    },
+    {
+      "title": "不许犯我",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q568299",
+      "author": "黎剎"
+    },
+    {
+      "title": "灿烂千阳",
+      "aliases": [
+        "燦爛千陽"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q860633",
+      "author": "卡勒德·胡赛尼"
+    },
+    {
+      "title": "龙",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q250371",
+      "author": "刘易斯·卡罗尔"
+    },
+    {
+      "title": "西厢记",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q58765",
+      "author": "王实甫"
+    },
+    {
+      "title": "罗德在魏玛",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q250125",
+      "author": "托马斯·曼"
+    },
+    {
+      "title": "隱身魔鬼",
+      "aliases": [
+        "暗藏杀机",
+        "暗藏殺機"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q617379",
+      "author": "阿加莎·克里斯蒂"
+    },
+    {
+      "title": "克麗斯汀",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q250123",
+      "author": "斯蒂芬·金"
+    },
+    {
+      "title": "蘋果橘子經濟學",
+      "aliases": [
+        "魔鬼经济学"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q1211497",
+      "author": "史蒂芬·列维特、史蒂芬·都伯纳"
+    },
+    {
+      "title": "修女",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q1209658",
+      "author": "德尼·狄德罗"
+    },
+    {
+      "title": "民族之歌",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q988729",
+      "author": "裴多菲·山多尔"
+    },
+    {
+      "title": "鴛鴦神探",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q1211857",
+      "author": "阿加莎·克里斯蒂"
+    },
+    {
+      "title": "桂河大桥",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q1211785",
+      "author": "彼埃尔·布勒"
+    },
+    {
+      "title": "競爭者篇",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q572073",
+      "author": "柏拉图"
+    },
+    {
+      "title": "上来透口气",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q967866",
+      "author": "乔治·奥威尔"
+    },
+    {
+      "title": "生命中的美好缺憾",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q658375",
+      "author": "约翰·葛林"
+    },
+    {
+      "title": "喪失了名譽的卡塔琳娜",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q841315",
+      "author": "海因里希·伯尔"
+    },
+    {
+      "title": "驴皮公主",
+      "aliases": [
+        "驴驹皮",
+        "驢駒皮"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q835505",
+      "author": "夏尔·佩罗"
+    },
+    {
+      "title": "反杜林论",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q574630",
+      "author": "弗里德里希·恩格斯"
+    },
+    {
+      "title": "借鏡殺人",
+      "aliases": [
+        "庄园谜案",
+        "莊園謎案"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q568210",
+      "author": "阿加莎·克里斯蒂"
+    },
+    {
+      "title": "冷戰諜魂",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q468071",
+      "author": "约翰·勒卡雷"
+    },
+    {
+      "title": "西塔佛秘案",
+      "aliases": [
+        "西塔佛祕案"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q571244",
+      "author": "阿加莎·克里斯蒂"
+    },
+    {
+      "title": "2001太空漫遊",
+      "aliases": [
+        "2001太空漫游"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q835341",
+      "author": "亞瑟·查理斯·克拉克"
+    },
+    {
+      "title": "共同体与社会",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q1210843",
+      "author": "斐迪南·滕尼斯"
+    },
+    {
+      "title": "狂人日記",
+      "aliases": [
+        "狂人日记"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q967831",
+      "author": "鲁迅"
+    },
+    {
+      "title": "伊索寓言",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q865902",
+      "author": "伊索"
+    },
+    {
+      "title": "小杜麗",
+      "aliases": [
+        "小杜丽"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q565638",
+      "author": "查尔斯·狄更斯"
+    },
+    {
+      "title": "獻給阿爾吉儂的花束",
+      "aliases": [
+        "献给阿尔杰农的花"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q837934",
+      "author": "丹尼爾·凱斯"
+    },
+    {
+      "title": "气球上的五星期",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q622634",
+      "author": "儒勒·凡尔纳"
+    },
+    {
+      "title": "伦理学",
+      "aliases": [
+        "倫理學"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q862816",
+      "author": "巴魯赫·斯賓諾莎"
+    },
+    {
+      "title": "永恆的終結",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q466196",
+      "author": "艾萨克·阿西莫夫"
+    },
+    {
+      "title": "美國牧歌",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q470057",
+      "author": "菲利普·罗斯"
+    },
+    {
+      "title": "道德小品",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q651941",
+      "author": "普魯塔克"
+    },
+    {
+      "title": "垂死偵探探案",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q466166",
+      "author": "阿瑟·柯南·道尔"
+    },
+    {
+      "title": "綠里奇蹟",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q466288",
+      "author": "斯蒂芬·金"
+    },
+    {
+      "title": "启蒙辩证法",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q1208415",
+      "author": "麥克斯·霍克海默、狄奥多·阿多诺"
+    },
+    {
+      "title": "危險關係",
+      "aliases": [
+        "危险关系"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q862050",
+      "author": "皮埃尔·肖代洛·德拉克洛"
+    },
+    {
+      "title": "螞蟻與蚱蜢",
+      "aliases": [
+        "蚂蚁和蚱蜢",
+        "螞蟻和蚱蜢"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q1211051",
+      "author": "伊索"
+    },
+    {
+      "title": "异乡异客",
+      "aliases": [
+        "異鄉異客"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q929821",
+      "author": "羅伯特·海萊因"
+    },
+    {
+      "title": "欲望号街车",
+      "aliases": [
+        "慾望號街車"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q842106",
+      "author": "田纳西·威廉斯"
+    },
+    {
+      "title": "德米安",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q860577",
+      "author": "赫尔曼·黑塞"
+    },
+    {
+      "title": "童年末日",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q466057",
+      "author": "亞瑟·查理斯·克拉克"
+    },
+    {
+      "title": "銷形蝕骸",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q253925",
+      "author": "斯蒂芬·金"
+    },
+    {
+      "title": "飢餓遊戲：星火燎原",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q837140",
+      "author": "苏珊·柯林斯"
+    },
+    {
+      "title": "黑色兄弟",
+      "aliases": [
+        "暗黑兄弟會"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q659548",
+      "author": "库特·海德、麗莎·泰茲納"
+    },
+    {
+      "title": "生活在别处",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q966732",
+      "author": "米兰·昆德拉"
+    },
+    {
+      "title": "萬聖節派對",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q251076",
+      "author": "阿加莎·克里斯蒂"
+    },
+    {
+      "title": "搏击俱乐部",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q837283",
+      "author": "恰克·帕拉尼克"
+    },
+    {
+      "title": "生命之水",
+      "aliases": [
+        "生命之水 (德国童话)",
+        "生命之水 (德國童話)"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q870005",
+      "author": "格林兄弟"
+    },
+    {
+      "title": "人猿泰山",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q655296",
+      "author": "埃德加·赖斯·巴勒斯"
+    },
+    {
+      "title": "差分機",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q466103",
+      "author": "威廉·吉布森、布鲁斯·斯特林"
+    },
+    {
+      "title": "猿之手",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q1210939",
+      "author": "W·W·雅各布斯"
+    },
+    {
+      "title": "最後的獨角獸",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q967268",
+      "author": "彼得·毕格"
+    },
+    {
+      "title": "第三位女郎",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q654170",
+      "author": "阿加莎·克里斯蒂"
+    },
+    {
+      "title": "奥勃洛莫夫",
+      "aliases": [
+        "奧勃洛莫夫"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q842074",
+      "author": "伊万·亚历山德罗维奇·冈察洛夫"
+    },
+    {
+      "title": "第三帝国的语言",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q574371",
+      "author": "维克托·克伦佩勒"
+    },
+    {
+      "title": "格雷的五十道陰影",
+      "aliases": [
+        "格雷的五十道阴影"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q557867",
+      "author": "埃里卡·倫納德"
+    },
+    {
+      "title": "清秀佳人",
+      "aliases": [
+        "绿山墙的安妮"
+      ],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q565911",
+      "author": "露西·莫德·蒙哥马利"
+    },
+    {
+      "title": "雙百人",
+      "aliases": [],
+      "category": "文学小说",
+      "source": "Wikidata 中文书目",
+      "source_id": "Q468132",
+      "author": "艾萨克·阿西莫夫"
+    }
+  ]
+}

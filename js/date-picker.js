@@ -100,7 +100,9 @@ export function setupDatePickers(form) {
   }
   form.addEventListener('submit',()=>inputs.forEach(input=>check(input,true)),true);
   form.addEventListener('change',()=>inputs.forEach(input=>{if(!input.closest('[hidden]'))check(input);}));
-  document.addEventListener('pointerdown',event=>{if(active&&!panel.contains(event.target)&&!event.target.closest('.date-entry'))close();});
+  // Close after the click is delivered: collapsing an inline panel on pointerdown
+  // can move the clicked control before pointerup, losing the user's click.
+  document.addEventListener('click',event=>{if(active&&!panel.contains(event.target)&&!event.target.closest('.date-entry'))close();});
   form.closest('dialog').addEventListener('close',()=>{close();inputs.forEach(input=>input.setCustomValidity(''));});
   return {reset(){close();inputs.forEach(input=>input.setCustomValidity(''));},refresh(){if(active&&active.closest('[hidden]'))close();}};
 }

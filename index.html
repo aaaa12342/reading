@@ -29,8 +29,8 @@
 <dialog id="reading-dialog" class="modal"><form id="reading-form">
   <div class="modal-heading"><div><p class="eyebrow">阅读记录</p><h2 id="form-title">添加一次阅读</h2></div><button class="icon-button" type="button" data-close aria-label="关闭"><span data-icon="close"></span></button></div>
   <div class="modal-body">
-    <label for="book-title">书名 <span class="required">*</span></label><div class="search-input"><span data-icon="search"></span><input id="book-title" name="title" required maxlength="200" autocomplete="off" placeholder="输入书名，匹配书籍信息"></div>
-    <div id="book-results" class="book-results" aria-label="书目匹配结果" hidden></div><p id="match-hint" class="hint" aria-live="polite">先匹配已有书架和常见书目，也可以直接手动填写。</p>
+    <label for="book-title">书名 / ISBN <span class="required">*</span></label><div class="search-input"><span data-icon="search"></span><input id="book-title" name="title" required maxlength="200" autocomplete="off" placeholder="输入书名、常见译名或 ISBN"></div>
+    <div id="book-results" class="book-results" aria-label="书目匹配结果" hidden></div><p id="match-hint" class="hint" aria-live="polite">输入书名、常见译名或 ISBN；已保存的书籍优先匹配。</p><button type="button" class="plain" id="search-online" hidden>继续查找在线书目</button>
     <div class="form-grid"><div><label for="book-author">作者</label><input id="book-author" name="author" maxlength="200" placeholder="选填"></div><div><label for="book-category">书籍类型</label><select id="book-category" name="category"></select></div></div>
     <fieldset class="status-picker"><legend>阅读状态</legend><label><input type="radio" name="status" value="reading" checked>正在读</label><label><input type="radio" name="status" value="finished">已读完</label></fieldset>
     <div class="form-grid" id="date-fields"><div><label for="started-on">开始日期 <span class="required">*</span></label><div class="date-entry"><input id="started-on" type="text" name="started_on" data-date-input inputmode="numeric" autocomplete="off" placeholder="YYYY-MM-DD" aria-describedby="date-help" required><button type="button" class="icon-button" data-date-toggle="started-on" aria-label="选择开始日期"><span data-icon="calendar"></span></button></div></div><div id="finished-field" hidden><label for="finished-on">读完日期 <span class="required">*</span></label><div class="date-entry"><input id="finished-on" type="text" name="finished_on" data-date-input inputmode="numeric" autocomplete="off" placeholder="YYYY-MM-DD" aria-describedby="date-help"><button type="button" class="icon-button" data-date-toggle="finished-on" aria-label="选择读完日期"><span data-icon="calendar"></span></button></div></div></div>
@@ -47,5 +47,5 @@
 <dialog id="detail-dialog" class="modal"><div id="detail-content"></div></dialog>
 <dialog id="confirm-dialog" class="modal small"><div class="modal-body"><h2 id="confirm-title">确认操作</h2><p id="confirm-message"></p><div class="button-row"><button class="secondary" id="confirm-no">取消</button><button class="primary" id="confirm-yes">确认</button></div></div></dialog>
 <div class="toast" id="toast" role="status" hidden></div>
-<script src="./config.js"></script><script src="./vendor/supabase.js"></script><script type="module" src="./js/app.js?v=20261020-dates"></script>
+<script src="./config.js"></script><script src="./vendor/supabase.js"></script><script type="module" src="./js/app.js?v=20261020-books"></script>
 </body></html>
