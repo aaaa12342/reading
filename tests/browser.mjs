@@ -26,13 +26,30 @@ try {
  await page.locator('.match-result').first().click();
  assert.equal(await page.locator('#book-author').inputValue(),'余华');
  assert.equal(await page.locator('#book-category').inputValue(),'文学小说');
- await page.locator('#started-on').fill('2024-01-01');
+ // Type the full date without the browser's segmented native date field.
+ await page.locator('#started-on').fill('');
+ await page.locator('#started-on').pressSequentially('20240101');
+ assert.equal(await page.locator('#started-on').inputValue(),'20240101');
+ await page.locator('#book-author').focus();
+ assert.equal(await page.locator('#started-on').inputValue(),'2024-01-01');
+ // The actual date buttons must receive clicks inside the modal top layer.
+ await page.getByRole('button',{name:'选择开始日期',exact:true}).click();
+ await page.locator('[data-calendar-year]').selectOption('2024');
+ await page.locator('[data-calendar-month]').selectOption('0');
+ await page.getByRole('button',{name:'2024年1月2日',exact:true}).click();
+ assert.equal(await page.locator('#started-on').inputValue(),'2024-01-02');
+ assert.equal(await page.locator('#reading-calendar').isVisible(),false);
  await page.getByRole('button',{name:'保存阅读',exact:true}).click();
  await page.waitForFunction(()=>!document.querySelector('#reading-dialog').open);
  assert.equal(await page.locator('.reading-card').count(),1);
  await page.locator('.reading-card').click();
  await page.locator('#reading-form').getByText('已读完',{exact:true}).click();
  await page.locator('#finished-on').fill('2024-02-01');
+ await page.getByRole('button',{name:'选择读完日期',exact:true}).click();
+ await page.locator('[data-calendar-year]').selectOption('2024');
+ await page.locator('[data-calendar-month]').selectOption('1');
+ await page.getByRole('button',{name:'2024年2月2日',exact:true}).click();
+ assert.equal(await page.locator('#finished-on').inputValue(),'2024-02-02');
  await page.getByRole('button',{name:'保存阅读',exact:true}).click();
  await page.waitForFunction(()=>!document.querySelector('#reading-dialog').open);
  await page.locator('[data-year]').selectOption('2024');
@@ -103,6 +120,21 @@ try {
  }
  await page.setViewportSize({width:375,height:1000});await page.screenshot({path:'test-results/mobile.png',fullPage:true});
  await page.locator('#settings-mobile').click();assert.equal(await page.locator('#settings-dialog').evaluate(e=>e.open),true);await page.locator('#settings-dialog [data-close]').click();
+ await page.getByRole('button',{name:'添加阅读',exact:true}).click();
+ await page.getByRole('button',{name:'选择开始日期',exact:true}).click();
+ await page.screenshot({path:'test-results/date-mobile.png',fullPage:true});
+ assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+ await page.locator('[data-calendar-year]').selectOption('2024');
+ await page.locator('[data-calendar-month]').selectOption('1');
+ await page.getByRole('button',{name:'2024年2月29日',exact:true}).click();
+ assert.equal(await page.locator('#started-on').inputValue(),'2024-02-29');
+ await page.getByRole('button',{name:'选择开始日期',exact:true}).click();
+ await page.keyboard.press('Escape');
+ assert.equal(await page.locator('#reading-calendar').isVisible(),false);
+ assert.equal(await page.locator('#reading-dialog').evaluate(e=>e.open),true);
+ await page.setViewportSize({width:1440,height:1050});
+ await page.getByRole('button',{name:'选择开始日期',exact:true}).click();
+ await page.screenshot({path:'test-results/date-desktop.png',fullPage:true});
  assert.deepEqual(errors,[]);
  console.log('Browser checks passed: add, match, finish, reread, monthly attribution, shelf search, key rejection, XSS escaping, deletion, demo, responsive widths.');
 }finally{await browser.close();}
